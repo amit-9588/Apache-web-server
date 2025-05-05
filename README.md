@@ -1,8 +1,14 @@
-# Apache-web-server
-This guide explains how to set up Apache HTTP Server 
+# 🌐 Apache Web Server: Reverse Proxy & Load Balancer Setup
 
-# Installation on Amazon-linux
- sudo yum install httpd -y
+This guide explains how to install and configure the **Apache HTTP Server** on various Linux distributions and use it as a **Reverse Proxy** or **Load Balancer**.
 
-# Installation on Ubuntu
- sudo apt install apache2
+---
+
+## 📦 Installation
+
+### 🔸 Amazon Linux
+
+```bash
+sudo yum install httpd -y
+sudo systemctl start httpd
+sudo systemctl enable httpd
