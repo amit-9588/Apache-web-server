@@ -13,6 +13,13 @@ sudo yum install httpd -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
 ```
+`For stop, reload and restart`
+
+```bash
+sudo systemctl stop httpd
+sudo systemctl reload httpd
+sudo systemctl restart httpd
+```
 
 ### 🟢 Ubuntu/Debian
 
@@ -22,3 +29,11 @@ sudo apt install apache2 -y
 sudo systemctl start apache2
 sudo systemctl enable apache2
 ```
+`For stop, reload and restart`
+
+```bash
+sudo systemctl stop apache2
+sudo systemctl reload apache2
+sudo systemctl restart apache2
+```
+
