@@ -12,3 +12,13 @@ This guide explains how to install and configure the **Apache HTTP Server** on v
 sudo yum install httpd -y
 sudo systemctl start httpd
 sudo systemctl enable httpd
+```
+
+### 🟢 Ubuntu/Debian
+
+```bash
+sudo apt update
+sudo apt install apache2 -y
+sudo systemctl start apache2
+sudo systemctl enable apache2
+```
